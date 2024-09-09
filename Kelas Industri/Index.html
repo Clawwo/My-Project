@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/farel-1-removebg-preview.png" type="image/x-icon" />
+    <title>Kota Yogyakarta</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="tugas.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar-container">
+      <div class="logo">
+        <img src="img/Logojogja-.png" alt="Hiking indonesia" />
+      </div>
+      <div class="search-box">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <input type="text" placeholder="Cari" />
+      </div>
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#Yogyakarta">Yogyakarta</a></li>
+          <li><a href="#Hotel">Hotel</a></li>
+          <li><a href="#Restoran">Restoran</a></li>
+          <li><a href="#Kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img class="gambar" src="img/caption.jpg" alt="Yogyakarta" />
+    <main id="Yogyakarta">
+      <article>
+        <h1>Yogyakarta</h1>
+        <p>
+          Yogyakarta memiliki arsitektur mengagumkan dan suasana spiritual yang
+          terasa kuat. Kuil Hindu kuno Prambanan terlihat seperti kastil pasir
+          yang dipahat dengan tangan, sedangkan istana Sultan menyerupai kotak
+          musik keemasan berisi perhiasan. Terkenal akan kesenian dan hasil
+          kerajinan tangannya, Yogyakarta merupakan pusat kebudayaan yang
+          menjadi urat nadi seni wayang tradisional dan modern.
+        </p>
+
+        <h1 id="Hotel"></h1>
+        <h1>Terpopuler di Jogja</h1>
+        <h2>Seputar Penginapan</h2>
+      </article>
+
+      <section class="image-gallery">
+        <div class="image-container">
+          <img
+            class="bnl"
+            src="img/sunset-view-villa-twin.jpg"
+            alt="Garrya Bianti Yogyakarta"
+          />
+          <h3>Garrya Bianti Yogyakarta</h3>
+          <button class="info-button" onclick="showDetailsCard('d1')">
+            Rincian
+          </button>
+
+        </div>
+        <div id="d1" class="details-card" style="display: none;">
+          <h2>RINCIAN</h2>
+          <div class="details-left">
+            <div class="details-section">
+              <h5>KISARAN HARGA</h5>
+              <p>Rp 30.000,00-Rp 102.000,00</p>
+            </div>
+            <div class="details-section">
+              <h5>MASAKAN</h5>
+              <p>internasional, Asia, Indonesia</p>
+            </div>
+            <div class="details-section">
+              <h5>MAKANAN</h5>
+              <p>Makan Siang, Makan Malam, Brunch</p>
+            </div>
+            <div class="details-section">
+              <h5>LAYANAN</h5>
+              <p>
+                Bawa Pulang, Reservasi, Tempat Duduk di Area Terbuka, Tersedia
+                Kursi Tinggi, Hanya Tunai, Wi-Fi Gratis, Taman Bermain, Kartu
+                Hadiah Tersedia
+              </p>
+            </div>
+          </div>
+
+          <button class="close-btn" onclick="closeDetailsCard('d1')">
+            <i data-feather="x"></i>
+          </button>
+        </div>
+        
+        <div class="image-container">
+          <img
+            class="bnl"
+            src="img/lobby-lounge.jpg"
+            alt="éL Hotel Yogyakarta Malioboro"
+          />
+          <h3>éL Hotel Yogyakarta Malioboro</h3>
+          <button class="info-button" onclick="showDetailsCard('d2')">Rincian</button>
+        </div>
+      </div>
+      <div id="d2" class="details-card" style="display: none;">
+        <h2>RINCIAN</h2>
+        <div class="details-left">
+          <div class="details-section">
+            <h5>KISARAN HARGA</h5>
+            <p>Rp 30.000,00-Rp 102.000,00</p>
+          </div>
+          <div class="details-section">
+            <h5>MASAKAN</h5>
+            <p>internasional, Asia, Indonesia</p>
+          </div>
+          <div class="details-section">
+            <h5>MAKANAN</h5>
+            <p>Makan Siang, Makan Malam, Brunch</p>
+          </div>
+          <div class="details-section">
+            <h5>LAYANAN</h5>
+            <p>
+              Bawa Pulang, Reservasi, Tempat Duduk di Area Terbuka, Tersedia
+              Kursi Tinggi, Hanya Tunai, Wi-Fi Gratis, Taman Bermain, Kartu
+              Hadiah Tersedia
+            </p>
+          </div>
+        </div>
+        <button class="close-btn" onclick="closeDetailsCard('d2')">
+          <i data-feather="x"></i>
+        </button>
+
+      </div>
+        <div class="image-container">
+          <img
+            class="bnl"
+            src="img/swiming.jpg"
+            alt="Grand Keisha Yogyakarta"
+          />
+          <h3>Grand Keisha Yogyakarta</h3>
+          <button class="info-button" onclick="showDetailsCard('d3')">Rincian</button>
+        </div>
+
+      </div>
+      <div id="d3" class="details-card" style="display: none;">
+        <h2>RINCIAN</h2>
+        <div class="details-left">
+          <div class="details-section">
+            <h5>KISARAN HARGA</h5>
+            <p>Rp 30.000,00-Rp 102.000,00</p>
+          </div>
+          <div class="details-section">
+            <h5>MASAKAN</h5>
+            <p>internasional, Asia, Indonesia</p>
+          </div>
+          <div class="details-section">
+            <h5>MAKANAN</h5>
+            <p>Makan Siang, Makan Malam, Brunch</p>
+          </div>
+          <div class="details-section">
+            <h5>LAYANAN</h5>
+            <p>
+              Bawa Pulang, Reservasi, Tempat Duduk di Area Terbuka, Tersedia
+              Kursi Tinggi, Hanya Tunai, Wi-Fi Gratis, Taman Bermain, Kartu
+              Hadiah Tersedia
+            </p>
+          </div>
+        </div>
+        <button class="close-btn" onclick="closeDetailsCard('d3')">
+          <i data-feather="x"></i>
+        </button>
+
+      </section>
+      <h2>Restoran terpopuler di jogja</h2>
+      <section class="image-gallery">
+        <div class="image-container">
+          <img
+            class="bnl"
+            src="img/inspira-roasters.jpg"
+            alt="Inspira Roasters"
+          />
+          <h3>Inspira Roasters</h3>
+          <button class="info-button" onclick="showDetailsCard('d4')">Rincian</button>
+        </div>
+      <div id="d4" class="details-card" style="display: none;">
+        <h2>RINCIAN</h2>
+        <div class="details-left">
+          <div class="details-section">
+            <h5>KISARAN HARGA</h5>
+            <p>Rp 30.000,00-Rp 102.000,00</p>
+          </div>
+          <div class="details-section">
+            <h5>MASAKAN</h5>
+            <p>internasional, Asia, Indonesia</p>
+          </div>
+          <div class="details-section">
+            <h5>MAKANAN</h5>
+            <p>Makan Siang, Makan Malam, Brunch</p>
+          </div>
+          <div class="details-section">
+            <h5>LAYANAN</h5>
+            <p>
+              Bawa Pulang, Reservasi, Tempat Duduk di Area Terbuka, Tersedia
+              Kursi Tinggi, Hanya Tunai, Wi-Fi Gratis, Taman Bermain, Kartu
+              Hadiah Tersedia
+            </p>
+          </div>
+        </div>
+
+        <button class="close-btn" onclick="closeDetailsCard('d4')">
+          <i data-feather="x"></i>
+        </button>
+        
+      </div>
+        <div class="image-container">
+          <img
+            class="bnl"
+            src="img/via-resto-in-in-the (1).jpg"
+            alt="ViaVia Jogja"
+          />
+          <h3>ViaVia Jogja</h3>
+          <button class="info-button" onclick="showDetailsCard('d5')">Rincian</button>
+        </div>
+      </div>
+      <div id="d5" class="details-card" style="display: none;">
+        <h2>RINCIAN</h2>
+        <div class="details-left">
+          <div class="details-section">
+            <h5>KISARAN HARGA</h5>
+            <p>Rp 30.000,00-Rp 102.000,00</p>
+          </div>
+          <div class="details-section">
+            <h5>MASAKAN</h5>
+            <p>internasional, Asia, Indonesia</p>
+          </div>
+          <div class="details-section">
+            <h5>MAKANAN</h5>
+            <p>Makan Siang, Makan Malam, Brunch</p>
+          </div>
+          <div class="details-section">
+            <h5>LAYANAN</h5>
+            <p>
+              Bawa Pulang, Reservasi, Tempat Duduk di Area Terbuka, Tersedia
+              Kursi Tinggi, Hanya Tunai, Wi-Fi Gratis, Taman Bermain, Kartu
+              Hadiah Tersedia
+            </p>
+          </div>
+        </div>
+
+        <button class="close-btn" onclick="closeDetailsCard('d5')">
+          <i data-feather="x"></i>
+        </button>
+      </div>
+        <div class="image-container">
+          <img
+            class="bnl"
+            src="img/six-senses-kitchen.jpg"
+            alt="Sixsenses Kitchen"
+          />
+          <h3>Sixsenses Kitchen</h3>
+          <button class="info-button" onclick="showDetailsCard('d6')">Rincian</button>
+        </div>
+      </div>
+      <div id="d6" class="details-card" style="display: none;">
+        <h2>RINCIAN</h2>
+        <div class="details-left">
+          <div class="details-section">
+            <h5>KISARAN HARGA</h5>
+            <p>Rp 30.000,00-Rp 102.000,00</p>
+          </div>
+          <div class="details-section">
+            <h5>MASAKAN</h5>
+            <p>internasional, Asia, Indonesia</p>
+          </div>
+          <div class="details-section">
+            <h5>MAKANAN</h5>
+            <p>Makan Siang, Makan Malam, Brunch</p>
+          </div>
+          <div class="details-section">
+            <h5>LAYANAN</h5>
+            <p>
+              Bawa Pulang, Reservasi, Tempat Duduk di Area Terbuka, Tersedia
+              Kursi Tinggi, Hanya Tunai, Wi-Fi Gratis, Taman Bermain, Kartu
+              Hadiah Tersedia
+            </p>
+          </div>
+        </div>
+
+        <button class="close-btn" onclick="closeDetailsCard('d6')">
+          <i data-feather="x"></i>
+        </button>
+      </div>
+        <h1 id="Kontak"></h1>
+      </section>
+
+      <div class="contact-card">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+          <p>
+            Silahkan Masukkan saran ataupun keluhan dengan mengirimkan lewat
+            email.
+          </p>
+          <p>
+            <i data-feather="map-pin"></i> Jalan no.23 blok M Imogiri, Bantul
+          </p>
+          <p><i data-feather="phone"></i> +62 123 456 7890</p>
+          <p><i data-feather="mail"></i> Mulyanto@gmail.com</p>
+        </div>
+        <div class="social-links">
+          <a href="#"><i data-feather="facebook"></i></a>
+          <a href="#"><i data-feather="twitter"></i></a>
+          <a href="#"><i data-feather="instagram"></i></a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2024 Mulyanto</p>
+    </footer>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
